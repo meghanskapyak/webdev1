@@ -1,0 +1,101 @@
+/* Write all your custom CSS below this line  */
+
+body {
+    background-color: rgb(174, 191, 211);
+}
+header {
+    font-family: Georgia, serif;
+    background-color: white;
+    padding: 1.0em 1.0em 2.0em 1.0em;
+    text-align: center;
+    color: rgb(238, 156, 156);
+    border: 5px solid pink;
+    margin-bottom: 1.5em;
+}
+h1 {
+    font-family: 'Vidaloka', serif;
+    color: lightcoral;
+}
+h2 {
+    font-family: 'Vidaloka', serif;
+    color: pink;
+    font-size: 20px;
+}
+.link{
+    color:rgb(174, 191, 211);
+    margin: 0 0.2em 0 0.2em;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+}
+p {
+    color: lightcoral;
+    font-size: 16px;
+}
+li {
+    color: rgb(226, 156, 156);
+    font-size: 16px;
+    margin: 0.5em auto 0.5em 1.2em;
+    text-align: justify;
+}
+footer {
+    font-family: Georgia, serif;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    border: 5px solid pink;
+    margin-top: 2.0em;
+}
+.image {
+    display: block;
+    margin: 1.0em auto 1.0em auto;
+    width: 50%;
+}
+
+.textblocks {
+    display:block;
+    background: rgb(255, 227, 232);
+    padding: 15px 20px 15px 30px;
+    margin: 0em auto 0em auto;
+    width: 70%;
+    position: center;
+    
+    font-family: Georgia, serif;
+    text-align: justify;
+
+    border-left: 15px solid white;
+  }
+  
+  .textblockspecialnews {
+    display:block;
+    background: rgb(255, 227, 232);
+    padding: 15px 20px 0px 30px;
+    margin: 0em auto 0em auto;
+    width: 70%;
+    position: center;
+    
+    font-family: Georgia, serif;
+    text-align: justify;
+
+    border-left: 15px solid white;
+  }
+
+  .sectiontitles {
+    display:block;
+    background: pink;
+    padding: 5px 20px 5px 30px;
+    margin: .5em auto 0em auto;
+    width: 70%;
+    position: center;
+    
+    font-family: Georgia, serif;
+    text-align: justify;
+
+    border-left: 15px solid white;
+  }
+
+  .intextlink{
+    color: white;
+    background-color: rgb(255, 175, 188);
+}
