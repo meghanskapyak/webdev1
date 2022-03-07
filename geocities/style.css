@@ -1,0 +1,217 @@
+header {
+    display: block;
+    background-image: url(https://web.archive.org/web/20090830144137im_/http://geocities.com/sheryl_32/nature/frogdiveborder.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+footer{
+    display: block;
+    background-color: white;
+    max-width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+.sticky-bottom{
+    position: relative;
+    bottom: 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+body {
+    background-color: rgb(76, 128, 76);
+    margin: 0;
+}
+.content{
+    position: center;
+    width: 50em;
+    text-align: justify;
+}
+.headercontent {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0em;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bigimages{
+    display: block;
+    width:25em;
+    border: 10px solid white;
+    position: center;
+    margin-top: 11em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    max-width: 60em;
+    position: center;
+    display: block;
+    margin: 0.5em auto 1em auto;
+    border-left: 10px solid white;
+    background-color:rgb(84, 153, 84);
+    padding-bottom: 0.7em;
+}
+.poem {
+    max-width: 60em;
+    position: center;
+    display: block;
+    margin: 0.5em auto 1em auto;
+    border-left: 10px solid white;
+    background-color:rgb(84, 153, 84);
+    padding-bottom: 0.7em;
+}
+.boxtext {
+    padding-left: 0.5em;
+}
+.facts {
+    max-width: 60em;
+    position: center;
+    display: block;
+    margin: 0.5em auto 1em auto;
+    border-left: 10px solid white;
+    background-color:rgb(84, 153, 84);
+    padding-bottom: 0.7em;
+
+}
+a{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: rgb(230, 171, 63);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: rgb(84, 153, 84);
+}
+.sectiontitles {
+    display:block;
+    background: rgb(48, 87, 48);
+    color: white;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: .5em auto 0em auto;
+    position: center;
+    
+    font-family: Georgia, serif;
+    text-align: justify;
+  }
+.textcontent {
+    background-color:rgb(84, 153, 84);
+    margin-top: 0;
+    padding: 0.5em;
+}
+.image {
+    display: block;
+    position: center;
+    margin: 0em auto 0em auto;
+    width: 25em;
+    border: 10px solid white;
+}
+#fountaingif {
+    bottom: 21em;
+    left: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#sittinggif{
+    bottom: 14em;
+    right: 1.5em;
+    left: auto;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#frogsitting{
+    bottom: -5em;
+    right: 1em;
+    left: auto;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#frogsrule{
+    bottom: 8em;
+    left: 3em;
+    position: absolute;
+    z-index: -1;
+    width: 10em;
+}
+#heartfrogs{
+    bottom: -9em;
+    left: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#frogclimbing{
+    bottom: -23em;
+    left: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#kingfrog{
+    bottom: -45em;
+    left: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#paintingfrogs{
+    bottom: -60em;
+    left: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#kickfrog{
+    bottom: -33em;
+    right: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#trumpetfrog{
+    bottom: -60em;
+    right: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#jumpingfrog{
+    bottom: -46em;
+    right: 1em;
+    position: absolute;
+    z-index: -1;
+    width: 15em;
+}
+#line{
+    max-width: 100%;
+    width: 70%;
+    position: relative;
+    margin: 0.5em auto 0.5em auto;
+    z-index: -1;
+}
+#bottom{
+    text-align: center;
+}
+h1{
+    font-family: 'Moo Lah Lah';
+    color:rgb(48, 87, 48);
+    font-size: 1.5cm;
+}
