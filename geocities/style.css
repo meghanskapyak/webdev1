@@ -54,35 +54,37 @@ p{
 }
 
 .about {
-    max-width: 60em;
+    width: 60em;
     position: center;
     display: block;
     margin: 0.5em auto 1em auto;
     border-left: 10px solid white;
     background-color:rgb(84, 153, 84);
     padding-bottom: 0.7em;
+    max-width: 80%;
 }
 .poem {
-    max-width: 60em;
+    width: 60em;
     position: center;
     display: block;
     margin: 0.5em auto 1em auto;
     border-left: 10px solid white;
     background-color:rgb(84, 153, 84);
     padding-bottom: 0.7em;
+    max-width: 80%;
 }
 .boxtext {
     padding-left: 0.5em;
 }
 .facts {
-    max-width: 60em;
+    width: 60em;
     position: center;
     display: block;
     margin: 0.5em auto 1em auto;
     border-left: 10px solid white;
     background-color:rgb(84, 153, 84);
     padding-bottom: 0.7em;
-
+    max-width: 80%;
 }
 a{
     padding-left: 0.5em;
