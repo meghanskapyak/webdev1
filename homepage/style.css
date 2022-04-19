@@ -1,0 +1,45 @@
+section{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    border: 1px solid #2d2d2d;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+div{
+    display: inline-block;
+}
+body{
+    background-color: cornflowerblue;
+}
+h1 {
+    margin: 8vh auto;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Moo Lah Lah', cursive;
+    font-family: 'Vidaloka', serif;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin: 10vh auto;
+    color: white;
+    font-family: 'Vidaloka', serif;
+    font-size: 1.5em;
+}
+li{
+    padding-bottom: 1vh;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: 'Vidaloka', serif;
+    font-size: 1em;
+}
