@@ -217,22 +217,22 @@ img{
     .container:hover .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
-        animation: fade 0.75s ease;
+
         z-index: 1;
-        height: calc(100vh - calc(100vh - 100%));
+
     }
     .container:focus .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
-        animation: fade 0.75s ease;
+
         z-index: 1;
-        height: calc(100vh - calc(100vh - 100%));
+        
     }
     .container:active .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
-        animation: fade 0.75s ease;
+
         z-index: 1;
-        height: calc(100vh - calc(100vh - 100%));
+
     }
   }
