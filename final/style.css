@@ -208,21 +208,12 @@ img{
     .overlay{
         height: 100% !important; 
     }
-    .container:hover .overlay{
+    .container:hover, .container:focus, .container:active .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
         z-index: 1;
     }
-    .container:focus .overlay{
-        background-color: rgb(81, 81, 81);
-        color: white;
-        z-index: 1;
-    }
-    .container:active .overlay{
-        background-color: rgb(81, 81, 81);
-        color: white;
-        z-index: 1;
-    }
+
   }
 
 
