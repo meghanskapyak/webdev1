@@ -235,7 +235,4 @@ img{
         z-index: 1;
         
     }
-    .overlay{
-        animation: fade 0.5s reverse;
-    }
   }
