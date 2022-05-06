@@ -213,22 +213,16 @@ img{
     .container:hover .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
-
         z-index: 1;
-
     }
     .container:focus .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
-
         z-index: 1;
-        
     }
     .container:active .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
-
         z-index: 1;
-
     }
   }
