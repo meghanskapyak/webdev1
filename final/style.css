@@ -214,16 +214,17 @@ img{
         color: white;
         z-index: 2;
     }
-    .container:focus .overlay{
-        background-color: rgb(81, 81, 81);
-        color: white;
-        z-index: 2;
-    }
     .container:active .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
         z-index: 2;
     }
+    .container:focus .overlay{
+        background-color: rgb(81, 81, 81);
+        color: white;
+        z-index: 2;
+    }
+
   }
 
 
