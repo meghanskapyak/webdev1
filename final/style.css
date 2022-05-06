@@ -219,6 +219,7 @@ img{
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
+        min-height: 1000%;
         object-fit: fill;
     }
     .container:focus .overlay{
@@ -226,6 +227,7 @@ img{
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
+        min-height: 1000%;
         object-fit: fill;
     }
     .container:active .overlay{
@@ -233,6 +235,7 @@ img{
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
+        min-height: 1000%;
         object-fit: fill;
     }
 
