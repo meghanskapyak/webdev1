@@ -220,6 +220,7 @@ img{
         animation: fade 0.75s ease;
         z-index: 1;
         bottom: 0;
+        top: 0;
     }
     .container:focus .overlay{
         background-color: rgb(81, 81, 81);
@@ -227,6 +228,7 @@ img{
         animation: fade 0.75s ease;
         z-index: 1;
         bottom: 0;
+        top: 0;
     }
     .container:active .overlay{
         background-color: rgb(81, 81, 81);
@@ -234,6 +236,7 @@ img{
         animation: fade 0.75s ease;
         z-index: 1;
         bottom: 0;
+        top: 0;
     }
     .overlay{
         position: absolute;
