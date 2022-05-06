@@ -140,12 +140,9 @@ h2{
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: transparent;
-    max-width: 100%;
-    width: 100%;
     
-    height: auto;
-    max-height: calc(100vh - calc(100vh - 100%));
-
+    width: 100%;
+    height: inherit;
     display: flex;
     align-items: center;
     justify-content: center;
