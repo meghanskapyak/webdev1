@@ -206,14 +206,23 @@ img{
         max-width: 100%;
     }
     .overlay{
-        height: 100% !important; 
+        height: calc(100vh - calc(100vh - 100%));
     }
-    .container:hover, .container:focus, .container:active .overlay{
+    .container:hover .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
         z-index: 1;
     }
-
+    .container:focus .overlay{
+        background-color: rgb(81, 81, 81);
+        color: white;
+        z-index: 1;
+    }
+    .container:active .overlay{
+        background-color: rgb(81, 81, 81);
+        color: white;
+        z-index: 1;
+    }
   }
 
 
