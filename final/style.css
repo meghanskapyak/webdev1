@@ -9,6 +9,7 @@ body{
 #wrapper{
     overflow-x: hidden;
     overflow-y: hidden;
+    position: relative;
 }
 header{
     z-index: 2;
