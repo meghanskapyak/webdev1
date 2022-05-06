@@ -142,7 +142,7 @@ h2{
     color: transparent;
     max-width: 100%;
     width: 100%;
-    max-height: calc(100vh - calc(100vh - 102%));
+    max-height: calc(100vh - calc(100vh - 100%));
     height: auto;
     display: flex;
     align-items: center;
