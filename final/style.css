@@ -225,10 +225,14 @@ img{
     }
     .wrapper {
         overflow: hidden;
+        overflow-y: visible !important;
         max-width: 100%;
         cursor: pointer;
     }
     .overlay{
+        height: calc(100vh - calc(100vh - 100%));
+    }
+    #lastoverlay{
         height: calc(100vh - calc(100vh - 100%));
     }
 
