@@ -231,11 +231,7 @@ img{
     .overlay{
         height: calc(100vh - calc(100vh - 100%));
     }
-    .lastoverlay{
-        height: calc(100vh - calc(100vh - 100%));
-        left: 0 !important;
-        top: 0 !important;
-    }
+
     .container:hover .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
