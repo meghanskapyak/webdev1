@@ -147,7 +147,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: opacity 0.1s ease 0.51s;
+
     animation: fade-out 0.5s ease;
 }
 
@@ -238,6 +238,6 @@ img{
     .overlay{
         max-height: calc(100vh - calc(100vh - 100%));
         height: auto;
-        animation-duration: 0s;
+        animation: fade 0.5s reverse;
     }
   }
