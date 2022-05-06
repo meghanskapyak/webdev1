@@ -237,6 +237,7 @@ img{
         left: 0 !important;
         top: 0 !important;
         position: absolute !important;
+        overflow-y: visible !important;
     }
 
     .container:hover .overlay{
