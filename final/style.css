@@ -213,7 +213,12 @@ img{
         overflow: hidden;
         max-width: 100%;
     }
-
+    .overlay{
+        max-width: 100%; 
+        width: 100%; 
+        height: calc(100vh - calc(100vh - 100%)) !important; 
+        max-height: calc(100vh - calc(100vh - 100%)) !important;
+    }
     .container:hover .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
