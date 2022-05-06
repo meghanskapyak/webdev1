@@ -214,6 +214,12 @@ img{
         overflow: hidden;
         max-width: 100%;
     }
+    .container:hover .overlay{
+        background-color: rgb(81, 81, 81);
+        color: white;
+        animation: fade 0.75s ease;
+        z-index: 1;
+    }
     .container:focus .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
@@ -226,11 +232,6 @@ img{
         animation: fade 0.75s ease;
         z-index: 1;
     }
-    .container:hover .overlay{
-        background-color: rgb(81, 81, 81);
-        color: white;
-        animation: fade 0.75s ease;
-        z-index: 1;
-    }
+
 
   }
