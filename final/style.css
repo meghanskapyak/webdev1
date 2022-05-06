@@ -210,9 +210,6 @@ img{
       flex: 90%;
       max-width: 90%;
     }
-    .column img{
-        aspect-ratio: auto;
-    }
     .wrapper {
         overflow: hidden;
         max-width: 100%;
