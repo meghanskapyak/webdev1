@@ -142,7 +142,7 @@ h2{
     color: transparent;
     max-width: 100%;
     width: 100%;
-    max-height: 100%;
+    max-height: calc(100vh - calc(100vh - 100%));
     height: auto;
     display: flex;
     align-items: center;
@@ -219,21 +219,21 @@ img{
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
-        height: calc(100vh - calc(100vh - 100%));
+        
     }
     .container:focus .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
-        height: calc(100vh - calc(100vh - 100%));
+        
     }
     .container:active .overlay{
         background-color: rgb(81, 81, 81);
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
-        height: calc(100vh - calc(100vh - 100%));
+        
     }
 
 
