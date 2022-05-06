@@ -346,10 +346,10 @@ img{
     #maintext{
         display: flex;
         flex-direction: column;
-        max-width: 80%;
+        max-width: 90%;
     }
     #mainicon{
-        max-width: 80%;
+        max-width: 90%;
         height: auto;
     }
     #intro{
