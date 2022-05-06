@@ -219,8 +219,9 @@ img{
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
-        display: inline-block;
-        min-height: 1000%;
+        display: inline-flex;
+        line-height: 100vh;
+        min-height: 100vh;
         object-fit: fill;
     }
     .container:focus .overlay{
@@ -228,8 +229,9 @@ img{
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
-        display: inline-block;
-        min-height: 100%;
+        display: inline-flex;
+        line-height: 100vh;
+        min-height: 100vh;
         object-fit: fill;
     }
     .container:active .overlay{
@@ -237,8 +239,9 @@ img{
         color: white;
         animation: fade 0.75s ease;
         z-index: 1;
-        display: inline-block;
-        min-height: 100%;
+        display: inline-flex;
+        line-height: 100vh;
+        min-height: 100vh;
         object-fit: fill;
     }
 
