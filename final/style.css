@@ -196,7 +196,7 @@ img{
   
   
 @media screen and (max-width: 600px) {
-    
+
     .column {
       flex: 90%;
       max-width: 90%;
@@ -204,6 +204,7 @@ img{
     .wrapper {
         overflow: hidden;
         max-width: 100%;
+        cursor: pointer;
     }
     .overlay{
         height: calc(100vh - calc(100vh - 100%));
