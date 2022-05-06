@@ -135,8 +135,6 @@ h2{
     background-color: transparent;
     opacity: 75%;
     margin-top: 8px;
-    margin-left: 0;
-    margin-right: 0;
     aspect-ratio: 6/9;
     font-size: 175%;
     text-align: center;
@@ -144,8 +142,10 @@ h2{
     color: transparent;
     max-width: 100%;
     width: 100%;
-    max-height: calc(100vh - calc(100vh - 100%));
+    
     height: auto;
+    max-height: calc(100vh - calc(100vh - 100%));
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,6 +215,9 @@ img{
     .wrapper {
         overflow: hidden;
         max-width: 100%;
+    }
+    .overlay{
+        min-height: calc(100vh - calc(100vh - 100%));
     }
     .container:hover .overlay{
         background-color: rgb(81, 81, 81);
