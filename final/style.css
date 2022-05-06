@@ -236,8 +236,7 @@ img{
         
     }
     .overlay{
-        max-height: calc(100vh - calc(100vh - 100%));
-        height: auto;
+        height: calc(100vh - calc(100vh - 100%));
         animation: fade 0.5s reverse;
     }
   }
