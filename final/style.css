@@ -135,6 +135,8 @@ h2{
     background-color: transparent;
     opacity: 75%;
     margin-top: 8px;
+    margin-left: 0;
+    margin-right: 0;
     aspect-ratio: 6/9;
     font-size: 175%;
     text-align: center;
