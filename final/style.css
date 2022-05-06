@@ -214,6 +214,7 @@ img{
     }
     .overlay{
         height: calc(100vh - calc(100vh - 100%)) !important; 
+        animation-duration: 0ms;
     }
     .container:hover .overlay{
         background-color: rgb(81, 81, 81);
