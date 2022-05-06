@@ -206,7 +206,7 @@ img{
         max-width: 100%;
     }
     .overlay{
-        height: calc(100vh - calc(100vh - 100%)) !important; 
+        height: 100% !important; 
     }
     .container:hover .overlay{
         background-color: rgb(81, 81, 81);
