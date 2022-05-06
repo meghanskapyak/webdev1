@@ -146,6 +146,33 @@ h2{
     animation: fade-out 0.5s ease;
 }
 
+.lastoverlay{
+    position: absolute;
+    background-color: transparent;
+    opacity: 75%;
+    margin-top: 8px;
+    aspect-ratio: 6/9;
+    font-size: 175%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: transparent;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fade-out 0.5s ease;
+}
+
+.container:hover .lastoverlay{
+    background-color: rgb(81, 81, 81);
+    color: white;
+    animation: fade 0.75s ease;
+    z-index: 1;
+}
+
 .container:hover .overlay{
     background-color: rgb(81, 81, 81);
     color: white;
@@ -180,12 +207,7 @@ img{
     padding-left: 1.25%;
 }
   
-@media screen and (max-width: 1200px) {
-    .column {
-      flex: 30%;
-      max-width: 30%;
-    }
-  }
+
 
 @media screen and (max-width: 900px) {
     .column {
