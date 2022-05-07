@@ -515,9 +515,10 @@ img{
         max-height: 30px;
     }
     #overflowpreventiontext{
-        display: block;
+        display: block !important;
         color: transparent;
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
+        overflow-y: visible !important;
     }
   }
 
