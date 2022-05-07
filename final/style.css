@@ -6,7 +6,6 @@ body, html{
     overflow-x: hidden;
     position: relative;
 }
-
 #wrapper{
     overflow-x: hidden;
     overflow-y: auto;
@@ -33,7 +32,12 @@ header{
     opacity: 75%;
 }
 a{
-    cursor: url(images/LinkSelect.png), auto;
+    cursor: url(images/LinkSelect.png), auto !important;
+    color:black;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: gray;
 }
 nav{
     width: 75%;
@@ -140,6 +144,7 @@ text-align: center;
 
 h1{
     font-family: 'Josefin Sans', sans-serif;
+    cursor: url(images/TextSelect.png), auto;
 }
 #resumeitems{
     list-style: none;
@@ -164,20 +169,24 @@ h2{
     font-size: 1.2rem;
     margin-bottom: 0%;
     margin-top: 5%;
+    cursor: url(images/TextSelect.png), auto;
 }
 h3{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
+    cursor: url(images/TextSelect.png), auto;
 }
 h4{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     color: gray;
+    cursor: url(images/TextSelect.png), auto;
 }
 p{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 300;
     word-spacing:   0.1em;
+    cursor: url(images/TextSelect.png), auto;
 }
 #home{
     display: flex;
@@ -233,6 +242,7 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     line-height: 1.2rem;
+    cursor: url(images/TextSelect.png), auto;
 }
 h4{
     margin-bottom: 4px;
