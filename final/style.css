@@ -514,13 +514,10 @@ img{
     .icon{
         max-height: 30px;
     }
-    #lastsection{
-        margin-bottom: 60px;
-        padding-bottom: 20px;
-    }
     #overflowpreventiontext{
         display: block;
         color: transparent;
+        font-size: 1rem;
     }
   }
 
