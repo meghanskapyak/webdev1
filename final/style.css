@@ -233,6 +233,9 @@ p{
     top: 0;
 
 }
+#overflowpreventiontext{
+    display: none;
+}
 .itemtitle{
     margin-bottom: 4px;
     margin-top: 32px;
@@ -514,6 +517,10 @@ img{
     #lastsection{
         margin-bottom: 60px;
         padding-bottom: 20px;
+    }
+    #overflowpreventiontext{
+        display: block;
+        color: transparent;
     }
   }
 
