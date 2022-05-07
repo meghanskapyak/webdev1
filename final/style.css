@@ -511,6 +511,7 @@ img{
     #resumepage{
         margin-bottom: 80px;
         overflow-y: visible !important;
+        padding-bottom: 20px;
     }
     .icon{
         max-height: 30px;
