@@ -510,6 +510,10 @@ img{
     }
     #resumepage{
         margin-bottom: 25%;
+        overflow-y: visible !important;
+    }
+    .icon{
+        max-height: 30px;
     }
   }
 
