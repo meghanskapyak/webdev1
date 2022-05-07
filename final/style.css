@@ -61,7 +61,7 @@ nav{
 .icon{
     max-width: 5vh;
     width: auto;
-    max-height: 50%;
+    max-height: 5vh;
     margin-right: 2vw;
 }
 
@@ -426,6 +426,9 @@ img{
         flex: 80%;
         width: 80%;
     }
+    #resumepage{
+        margin-bottom: 15%;
+    }
   }
 
 
@@ -504,6 +507,9 @@ img{
     #resumecolumn{
         flex: 90%;
         width: 90%;
+    }
+    #resumepage{
+        margin-bottom: 25%;
     }
   }
 
