@@ -146,11 +146,7 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     cursor: url(images/TextSelect.png) 0 16, auto;
 }
-#resumeitems{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 .sectiontitle{
     font-family: 'Josefin Sans', sans-serif;
@@ -223,7 +219,7 @@ p{
     justify-content: center;
 }
 
-#resumecolumn{
+.resumecolumn{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -240,7 +236,7 @@ p{
     margin-bottom: 4px;
     margin-top: 32px;
 }
-#points{
+.points{
     list-style: outside none circle;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -384,7 +380,7 @@ img{
     #resumepage{
         margin-bottom: 15%;
     }
-    #resumecolumn{
+    .resumecolumn{
         flex: 70%;
         width: 70%;
     }
@@ -426,7 +422,7 @@ img{
     #footerwrap{
         margin: 1.5% auto auto auto;
     }
-    #resumecolumn{
+    .resumecolumn{
         flex: 80%;
         width: 80%;
     }
@@ -508,7 +504,7 @@ img{
     #footerwrap{
         margin: 2% auto auto auto;
     }
-    #resumecolumn{
+    .resumecolumn{
         flex: 90%;
         width: 90%;
     }
