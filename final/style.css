@@ -32,7 +32,7 @@ header{
     opacity: 75%;
 }
 a{
-    cursor: url(images/LinkSelect.png), auto !important;
+    cursor: url(images/LinkSelect.png) 12 0 ,auto !important;
     color:black;
     font-size: 1.2rem;
 }
@@ -144,7 +144,7 @@ text-align: center;
 
 h1{
     font-family: 'Josefin Sans', sans-serif;
-    cursor: url(images/TextSelect.png), auto;
+    cursor: url(images/TextSelect.png) 0 16, auto;
 }
 #resumeitems{
     list-style: none;
@@ -169,24 +169,24 @@ h2{
     font-size: 1.2rem;
     margin-bottom: 0%;
     margin-top: 5%;
-    cursor: url(images/TextSelect.png), auto;
+    cursor: url(images/TextSelect.png) 0 16, auto;
 }
 h3{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
-    cursor: url(images/TextSelect.png), auto;
+    cursor: url(images/TextSelect.png) 0 16, auto;
 }
 h4{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     color: gray;
-    cursor: url(images/TextSelect.png), auto;
+    cursor: url(images/TextSelect.png) 0 16, auto;
 }
 p{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 300;
     word-spacing:   0.1em;
-    cursor: url(images/TextSelect.png), auto;
+    cursor: url(images/TextSelect.png) 0 16, auto;
 }
 #home{
     display: flex;
@@ -245,7 +245,7 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     line-height: 1.2rem;
-    cursor: url(images/TextSelect.png), auto;
+    cursor: url(images/TextSelect.png) 0 16, auto;
 }
 h4{
     margin-bottom: 4px;
@@ -284,6 +284,7 @@ h4{
     align-items: center;
     justify-content: center;
     animation: fade-out 0.5s ease;
+    pointer-events: none;
 }
 
 #lastoverlay{
